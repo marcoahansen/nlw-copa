@@ -1,5 +1,6 @@
+type TypeTest = "up" | "down";
 interface HomeProps {
-  count: number;
+  count: TypeTest;
 }
 
 export default function Home(props: HomeProps) {
